@@ -1,5 +1,6 @@
 # Credit Card Fraud Detection Project
 Credit Card Fraud Detection Using Machine Learning and Deep Learning Techniques
+Presentation: 
 
 ## Overview
 This project is part of a mini-project for SC1015 (Introduction to Data Science and Artificial Intelligence), focusing on detecting credit card fraud using statistical modeling, machine learning, and deep learning techniques. The project aims to identify fraudulent transactions and mitigate losses by leveraging advanced analytical methods.
