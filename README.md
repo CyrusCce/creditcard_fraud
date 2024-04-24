@@ -43,14 +43,12 @@ Ensure your Python and Jupyter environments are correctly configured with all re
 
 ## Jupyter Notebooks Overview
 [Data Extraction & Exploratory Analysis]
-It includes:
 - Data extraction from various sources to create datasets.
 - Grouping and preprocessing of data, including PCA transformation.
 - Exploratory analysis to understand variable distribution and correlations.
 - Visualization techniques such as histograms, scatter plots, and correlation matrices.
 
 [Machine Learning - Model Building]
-It includes:
 - Implementation of decision tree, random forest, and logistic regression models.
 - Hyperparameter tuning to optimize model performance.
 - Evaluation of models using metrics like accuracy, ROC AUC, and confusion matrices.
@@ -58,7 +56,6 @@ It includes:
 - Analysis of model performance and comparison of results.
 
 [Notebook #3: Deep Learning - Convolutional Neural Network (CNN)]
-It covers:
 - Designing and training a CNN model for fraud detection.
 - Architecture of the CNN model, including convolutional and dense layers.
 - Evaluation of the CNN model using metrics like accuracy, loss, and ROC AUC.
