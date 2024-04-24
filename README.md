@@ -81,6 +81,10 @@ Contributions are welcome. To contribute to this project:
 This project was developed by Group 9 for SC1015. 
 
 ## References 
+- https://www.kaggle.com/code/rahulmakwana/creditcard-fruad-detection-cnn-ann-and-regression/notebook#5
+- https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets/notebook
+- https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+- https://medium.com/amarpandey/identify-fraudulent-transaction-using-tensorflow-cnn-model-c4cc2ca14152
 
 
 ## License
