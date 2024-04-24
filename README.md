@@ -1,7 +1,4 @@
-# creditcard_fraud
 # Credit Card Fraud Detection Project
-
-## Project Title
 Credit Card Fraud Detection Using Machine Learning and Deep Learning Techniques
 
 ## Overview
