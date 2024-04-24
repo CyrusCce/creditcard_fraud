@@ -13,6 +13,12 @@ The goal is to help banks and financial institutions recognize fraudulent credit
 ## Dataset
 The dataset comprises transactions from European credit cardholders in September 2013, featuring 284,807 transactions, of which 492 are fraudulent. This represents a highly imbalanced dataset with only 0.172% of transactions being fraudulent. The data features are the result of a PCA transformation to protect user identities, with features V1 to V28 as principal components, and 'Time' and 'Amount' as non-transformed features. The target variable 'Class' indicates whether a transaction is fraudulent.
 
+Handling Imbalanced Data
+Given the highly imbalanced dataset, the project uses the following techniques to address class imbalance:
+- Synthetic Minority Over-sampling Technique (SMOTE): Increases the minority class by creating synthetic samples based on k-nearest neighbors.
+- Random UnderSampling Technique (RUS): Randomly removes samples from the majority class to achieve a desired balance.
+Combining SMOTE with RUS yielded optimal results, achieving an ROC score of 1.
+
 ## Installation Instructions
 1. **Clone the repository** to your local machine.
 2. **Ensure Python 3.7 or later is installed.**
@@ -32,18 +38,6 @@ The dataset comprises transactions from European credit cardholders in September
 ## Configuration
 Ensure your Python and Jupyter environments are correctly configured with all required dependencies installed.
 
-## Jupyter Notebooks Overview
-- **Notebook #1: Data Extraction & Exploratory Analysis**
-  - Data extraction, preprocessing with PCA, exploratory analysis, and initial visualizations.
-- **Notebook #2: Machine Learning - Model Building**
-  - Implementation and tuning of Decision Trees, Random Forests, and Logistic Regression models; model evaluation.
-- **Notebook #3: Deep Learning - Convolutional Neural Network (CNN)**
-  - CNN model design, training, and evaluation; comparison of CNN performance with traditional models.
-
-## Handling Imbalanced Data
-Techniques used:
-- **Synthetic Minority Over-sampling Technique (SMOTE)**: Enhances the minority class by synthesizing new examples.
-- **Random UnderSampling Technique (RUS)**: Balances the dataset by reducing the size of the majority class.
 
 ## Models Used
 - **Decision Tree**
@@ -51,25 +45,8 @@ Techniques used:
 - **Logistic Regression**
 - **Convolutional Neural Network (CNN)**
 
-## Contributing
-Contributions are welcome. Please fork the repository, create a new branch for your changes, and submit a pull request describing your modifications.
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Credits
-- **Project Lead**: [Your Name]
-- **Contributors**: [Names of Contributors]
-- **Acknowledgments**: Thanks to the dataset providers, course instructors, and everyone who supported this project.
-
-## Contact Information
-- **Email**: [your.email@example.com]
-- **GitHub**: [Your GitHub Profile](https://github.com/)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/)
-
-## References
-- **Kaggle Dataset**: [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- **Chargebacks911**: [Credit Card Fraud Statistics](https://www.chargebacks911.com/credit-card-fraud-statistics/)
 
 Jupyter Notebooks Overview
 Notebook #1: Data Extraction & Exploratory Analysis
@@ -96,12 +73,6 @@ This notebook focuses on using deep learning techniques, specifically Convolutio
 - Comparison of CNN performance with traditional machine learning models.
 - Analysis of results and recommendations for model deployment.
 
-Handling Imbalanced Data
-Given the highly imbalanced dataset, the project uses the following techniques to address class imbalance:
-- Synthetic Minority Over-sampling Technique (SMOTE): Increases the minority class by creating synthetic samples based on k-nearest neighbors.
-- Random UnderSampling Technique (RUS): Randomly removes samples from the majority class to achieve a desired balance.
-Combining SMOTE with RUS yielded optimal results, achieving an ROC score of 1.
-
 Statistical Analysis and Recommendations
 Although both logistic regression and CNN models achieved high test accuracy, the CNN model demonstrated a higher accuracy score, indicating its superior capability in complex pattern recognition tasks like credit card fraud detection. This leads to the following recommendations:
 - SMOTE followed by RUS: To address class imbalance, using a combination of SMOTE and RUS is recommended, leading to improved model performance.
@@ -121,4 +92,4 @@ License
 This project is distributed under the MIT License. Please refer to the LICENSE file for more information on permissions and restrictions.
 
 Credits
-This project was developed by Group 7 for SC1015. We would like to thank:
+This project was developed by Group 9 for SC1015. 
