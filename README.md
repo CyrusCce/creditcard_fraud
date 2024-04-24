@@ -35,26 +35,21 @@ Combining SMOTE with RUS yielded optimal results, achieving an ROC score of 1.
 ## Configuration
 Ensure your Python and Jupyter environments are correctly configured with all required dependencies installed.
 
-
 ## Models Used
 - **Decision Tree**
 - **Random Forest**
 - **Logistic Regression**
 - **Convolutional Neural Network (CNN)**
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Jupyter Notebooks Overview
-Notebook #1: Data Extraction & Exploratory Analysis
-This notebook focuses on extracting data related to credit card transactions and performing exploratory analysis to understand patterns in fraud detection.
+## Jupyter Notebooks Overview
+[Data Extraction & Exploratory Analysis]
 It includes:
 - Data extraction from various sources to create datasets.
 - Grouping and preprocessing of data, including PCA transformation.
 - Exploratory analysis to understand variable distribution and correlations.
 - Visualization techniques such as histograms, scatter plots, and correlation matrices.
 
-Notebook #2: Machine Learning - Model Building
+[Machine Learning - Model Building]
 This notebook explores machine learning models for fraud detection. It includes:
 - Implementation of decision tree, random forest, and logistic regression models.
 - Hyperparameter tuning to optimize model performance.
@@ -62,7 +57,7 @@ This notebook explores machine learning models for fraud detection. It includes:
 - Handling of imbalanced data using techniques like SMOTE and RUS.
 - Analysis of model performance and comparison of results.
 
-Notebook #3: Deep Learning - Convolutional Neural Network (CNN)
+[Notebook #3: Deep Learning - Convolutional Neural Network (CNN)]
 This notebook focuses on using deep learning techniques, specifically Convolutional Neural Networks (CNNs), to detect credit card fraud. It covers:
 - Designing and training a CNN model for fraud detection.
 - Architecture of the CNN model, including convolutional and dense layers.
@@ -70,23 +65,21 @@ This notebook focuses on using deep learning techniques, specifically Convolutio
 - Comparison of CNN performance with traditional machine learning models.
 - Analysis of results and recommendations for model deployment.
 
-Statistical Analysis and Recommendations
+## Statistical Analysis and Recommendations
 Although both logistic regression and CNN models achieved high test accuracy, the CNN model demonstrated a higher accuracy score, indicating its superior capability in complex pattern recognition tasks like credit card fraud detection. This leads to the following recommendations:
 - SMOTE followed by RUS: To address class imbalance, using a combination of SMOTE and RUS is recommended, leading to improved model performance.
 - Convolutional Neural Network (CNN) 1D sequence: This structure, with multiple convolutional and dense layers, offers high accuracy rates without compromising on quality and integrity.
+- To further improve performance, consider adding a MaxPooling1D layer to reduce spatial dimensions while retaining key features. This may lead to faster training times and reduced overfitting.
 
-Future Recommendations
-To further improve performance, consider adding a MaxPooling1D layer to reduce spatial dimensions while retaining key features. This may lead to faster training times and reduced overfitting.
-
-Contributing
+## Contributing
 Contributions are welcome. To contribute to this project:
 - Fork the repository and create a new branch.
 - Implement your changes and submit a pull request.
 - Provide a clear description of your changes and the purpose of the pull request.
 - Follow the project's code of conduct and best practices for contributing.
 
-License
-This project is distributed under the MIT License. Please refer to the LICENSE file for more information on permissions and restrictions.
-
-Credits
+## Credits
 This project was developed by Group 9 for SC1015. 
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
