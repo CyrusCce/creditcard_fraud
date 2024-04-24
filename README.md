@@ -50,7 +50,7 @@ It includes:
 - Visualization techniques such as histograms, scatter plots, and correlation matrices.
 
 [Machine Learning - Model Building]
-This notebook explores machine learning models for fraud detection. It includes:
+It includes:
 - Implementation of decision tree, random forest, and logistic regression models.
 - Hyperparameter tuning to optimize model performance.
 - Evaluation of models using metrics like accuracy, ROC AUC, and confusion matrices.
@@ -58,7 +58,7 @@ This notebook explores machine learning models for fraud detection. It includes:
 - Analysis of model performance and comparison of results.
 
 [Notebook #3: Deep Learning - Convolutional Neural Network (CNN)]
-This notebook focuses on using deep learning techniques, specifically Convolutional Neural Networks (CNNs), to detect credit card fraud. It covers:
+It covers:
 - Designing and training a CNN model for fraud detection.
 - Architecture of the CNN model, including convolutional and dense layers.
 - Evaluation of the CNN model using metrics like accuracy, loss, and ROC AUC.
